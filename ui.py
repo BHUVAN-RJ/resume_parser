@@ -81,12 +81,6 @@ def get_result():
     shortlisted_candidates = nlp_extractor()
 
 
-
-# def thread_start():
-#     thread = threading.Thread(target=nlp_extractor())
-#     thread.start()
-
-
 def label_update():
     file_path_show_label.config(text=folder_path)
 
